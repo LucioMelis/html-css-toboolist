@@ -10,7 +10,10 @@
 <body>
 <!--Parto con l'intestazione della pagina-->    
     <header>
-        <img id="logo" src="img/logo copia.png" alt="logo" width="80px">
+<!--lavoro l'immagine sul div per poter usare vertical align con h1-->        
+        <div class="logo">
+            <img src="img/Logo.png" alt="logo">
+        </div>
         <h1>Toboolist</h1>
     </header>
     <main>
@@ -18,33 +21,63 @@
         <div id="button-manage">
             <button class="color1" type="button">Add Task</button>
             <button class="color2" type="button">Add Section</button>
-        </div>
-<!--inserisco un main come parte principale-->        
-        
+        </div>        
 <!--div container-->
         <div id="container">
             <ul>
                 <li><strong>&dtrif;New Task</strong></li> 
-                <li><span>&#10004;</span> Quarterly Newsletter</li>
+                <li>
+                    <div class="spunta">&#10004;</div> 
+                    <p class="text">Quarterly Newsletter</p>
+                    <div class="mark azzurro">Editorial</div>
+                </li>
             </ul>
             <ul>
-                <li><strong>&dtrif;Today</strong></li> 
-                <li><span>&#10004;</span>Recruiting blog post</li>
-                <li><span>&#10004;</span>Mobile app launch</li>
-                <li><span class="cross">&#10006;</span> Interview John H.</li>
-                <li><span>&#10004;</span>Summit update to mobile storefronts</li>
+                <li><strong>&dtrif;Today</strong></li>
+                <li>
+                    <div class="spunta">&#10004;</div> 
+                    <p class="text">Recruiting blog post</p>
+                    <div class="mark azzurro">Editorial</div>
+                </li>
+                <li>
+                    <div class="spunta">&#10004;</div> 
+                    <p class="text">Mobile app launch</p>
+                    <div class="mark purple">Q1 Goals</div>
+                </li>
+                <li>
+                    <div class="cross">&#10006;</div> 
+                    <p class="text">Interview John H.</p>
+                    <div class="mark green">Recruiting</div>
+                </li>
+                <li>
+                    <div class="spunta">&#10004;</div> 
+                    <p class="text">Summit update to mobile storefront</p>
+                    <div class="mark orange">Mobile</div>
+                </li>
             </ul>
-            <ul> 
-                <li><strong>&dtrif;Upcoming</strong></li>
-                <li><span class="cross">&#10006;</span> Schedule meeting with Alex</li>
-                <li><span>&#10004;</span>Homepage refresh</li>
-                <li><span>&#10004;</span>Onboard new Sales Team members</li>
-                <li><span>&#10004;</span>Review editorial calendar</li>
-            </ul>
+            <ul>
+                <li><strong>&dtrif;Upcoming</strong></li> 
+                <li>
+                    <div class="cross">&#10006;</div> 
+                    <p class="text">Schedule meeting with Alex</p>
+                </li>
+                <li>
+                    <div class="spunta">&#10004;</div> 
+                    <p class="text">Homepage refresh</p>
+                    <div class="mark pink">Website</div>
+                </li>
+                <li>
+                    <div class="spunta">&#10004;</div> 
+                    <p class="text">Onboard new Sales team members</p>
+                    <div class="mark brown">Sales</div>
+                </li>
+                <li>
+                    <div class="spunta">&#10004;</div> 
+                    <p class="text">Review editorial calendar</p>
+                    <div class="mark azzurro">Editorial</div>
+                </li>
+            </ul>    
         </div>
-    </main>
-
-    </div>
-    
+    </main>   
 </body>
 </html>
