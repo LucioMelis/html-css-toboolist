@@ -1,10 +1,26 @@
+* {
+    box-sizing: border-box;
+}
 body{
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 header{
     background-color: white;
+    height: 100px;
 }
 h1{
     display: inline-block;
     font-size: 50px;
+}
+#button-manage{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+.color1{
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px
 }
