@@ -18,6 +18,8 @@ h1{
     margin: auto;
     margin-top: 20px;
     padding: 20px;
+    padding-left: 50px;
+    border-radius: 4px;
 }
 .color1{
     padding: 8px;
@@ -31,11 +33,18 @@ h1{
     color: lightgray;
     background-color: white;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 #container{
     background-color: white;
     width: 70%;
     margin: auto;
     font-size: 30px;
+    border-radius: 3px;
+}
+div ul {
+    list-style-type: none;
+}
+.first{
+    
 }
